@@ -35,21 +35,21 @@ public Action:Command_Say(client, const String:command[], argc)
 	// List
 	if (strcmp(speech[startidx], "/list", false) == 0)
 	{
-		ShowMOTDPanel(client, "Title", "http://files.iesaba.com/csmap/html/?f=saycommand.htm", MOTDPANEL_TYPE_URL);
+		ShowMOTDPanel(client, "Title", "http://files.iesaba.com/csmap/27020_html/?f=saycommand.htm", MOTDPANEL_TYPE_URL);
 		return Plugin_Handled;
 	}
 
 	// Rule
 	if (strcmp(speech[startidx], "/rule", false) == 0)
 	{
-		ShowMOTDPanel(client, "Title", "http://files.iesaba.com/csmap/html/?f=rule.htm", MOTDPANEL_TYPE_URL);
+		ShowMOTDPanel(client, "Title", "http://files.iesaba.com/csmap/27020_html/?f=rule.htm", MOTDPANEL_TYPE_URL);
 		return Plugin_Handled;
 	}
 
 	// Contact
 	if (strcmp(speech[startidx], "/contact", false) == 0)
 	{
-		ShowMOTDPanel(client, "Title", "http://files.iesaba.com/csmap/html/?f=contact.htm", MOTDPANEL_TYPE_URL);
+		ShowMOTDPanel(client, "Title", "http://files.iesaba.com/csmap/27020_html/?f=contact.htm", MOTDPANEL_TYPE_URL);
 		return Plugin_Handled;
 	}
 
