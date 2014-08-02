@@ -58,9 +58,7 @@ public Action:Command_Say(client, const String:command[], argc)
 
 public Event_RoundStart(Handle:event, const String:name[], bool:dontBroadcast)
 {
-	for (new i = 1; i <= MaxClients; i++)
-		if(IsValidClient(i))
-			PrintHintText(i, "saycommand list ---> /list\nadmin contact ---> /contact\nshow rule ---> /rule");
+	PrintHintTextToAll("saycommand list ---> /list\nadmin contact ---> /contact\nshow rule ---> /rule");
 }
 
 public IsValidClient(client)
