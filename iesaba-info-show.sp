@@ -58,7 +58,7 @@ public Action:Command_Say(client, const String:command[], argc)
 
 public Event_RoundStart(Handle:event, const String:name[], bool:dontBroadcast)
 {
-	PrintHintTextToAll("saycommand list ---> /list\nadmin contact ---> /contact\nshow rule ---> /rule");
+	PrintHintTextToAll("Saycommands List -> /list , Admin Contact -> /contact\nShow Rule -> /rule , Double Jump -> /double");
 }
 
 public IsValidClient(client)
